@@ -13,7 +13,6 @@ import {
 	ChatBubbleOvalLeftIcon,
 	Cog6ToothIcon,
 } from "@heroicons/react/24/solid";
-import logo from "./../../../public/logo.png";
 
 const SideNavigation = () => {
 	return (
@@ -25,7 +24,7 @@ const SideNavigation = () => {
 			<div className="flex flex-col items-center gap-7">
 				{/* Logo */}
 				<div>
-					<Image src={logo} alt="Wingman store" width={32} height={32} />
+					<Image src={"/logo.png"} alt="Wingman store" width={32} height={32} />
 				</div>
 
 				{/* Spacer */}
